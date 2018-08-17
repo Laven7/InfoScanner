@@ -109,7 +109,7 @@ public static <T>  ResultMap scanAndSave(String filePath, Class<T> entityClazz, 
 ```java
   @Test
     public void test2() throws ReflectiveOperationException {
-        String filePath = "F:/java项目/考查课考场查询/数据模板/学生选课信息.csv";
+        String filePath = "F:/123.csv";
         CsvScanner.scanAndSave(filePath, //文件路径
                 Xsxk.class, //实体类class对象
                 (list) -> {  //DAO数据接口
