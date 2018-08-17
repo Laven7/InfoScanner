@@ -54,7 +54,7 @@ public class Student {
  */
 public static <T>  ResultMap scanAndSave(String filePath, Class<T> entityClazz, SaveListDao<T> dao) 
   throws ReflectiveOperationException
-```java
+```
 
 指定读取Excel工作表号的数据源的信息存入数据库中 
 ```java
