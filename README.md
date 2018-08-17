@@ -13,6 +13,8 @@ Excel和CSV类型数据文件自动录入小工具
 
 **在实体类中字段上方@ExportColumn注解指定需要通过数据文件录入字段**
 
+- @ExportColumn注解的value值为该字段对应的数据文件中对应的中文名
+
 - 下方代码中，@Data注解为lombok的注解，
 也可不用 不用后，需加入无参构造 setter 和 getter 
 最好重写toString、hashcode、equals方法，使用lombok的Data注解这些事情可省去，其自动完成
