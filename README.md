@@ -9,8 +9,10 @@ Excel和CSV类型数据文件自动录入小工具
 - super-csv-2.4.0.jar （csv文件类型）
 - xmlbeans-2.3.0.jar
 
-## 在实体类中使用@ExportColumn注解指定需要通过数据文件录入字段
-实体类中字段上方加入注解 
+## 实体类中
+
+**在实体类中字段上方@ExportColumn注解指定需要通过数据文件录入字段**
+
 - 下方代码中，@Data注解为lombok的注解，
 也可不用 不用后，需加入无参构造 setter 和 getter 
 最好重写toString、hashcode、equals方法，使用lombok的Data注解这些事情可省去，其自动完成
